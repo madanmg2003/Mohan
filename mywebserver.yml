@@ -15,7 +15,15 @@
       state: started
     when: ansible_os_family=="Debian"
 
+  - name: i want to install webserver on redhat nodes
+    dnf:
+      name: httpd
+      state: present
+    when: ansible_os_family=="redhat"
 
-
-
+  - name: i want to start webserver on redhat
+    service:
+        name:httpd
+        state:present
+    when: ansible_os_family=="redhat"
       
