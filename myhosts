@@ -13,3 +13,10 @@
 [myDBappserver]
 172.31.89.00
 172.31.0.04
+
+
+[mywebserver:vars]
+key:value
+mywebpackonunbuntu= apache2ggggggggg
+mywebpackonredhat= httpd
+
