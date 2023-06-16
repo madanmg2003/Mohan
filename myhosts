@@ -15,7 +15,7 @@
 172.31.0.04
 
 
-[mywebserver:vars]
+[mywebservers:vars]
 key:value
 mywebpackonunbuntu= apache2ggggggggg
 mywebpackonredhat= httpd
